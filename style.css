@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  color: #ffffff;
+}
+
+#background{
+  width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+#background_image img{
+  max-width: 100%;
+}
+
+#background_trasparent{
+  width: 900px;
+  height: 590px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  border-radius: 25px;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.logo_lim img{
+  width: 180px;
+  position: absolute;
+  left: 350px;
+}
+
+.title_text{
+  margin: auto;
+  margin-top: 100px;
+  font-size: 10px;
+  color: #00ff00;
+  text-align: center;
+}
+
+.navigation_bar{
+  width: 740px;
+  height: 30px;
+  background: #00ff00;
+  margin-top: 5px;
+  text-align: center;
+  padding: 6px;
+  color: #000000;
+}
+
+.scooters{
+  margin-top: 20px;
+}
+
+.address{
+  font-size: 12px;
+}
+
+.yellow_battery{
+  width: 250px;
+  height: 20px;
+  background: #ffff00;
+  border-radius: 5px;
+}
+
+.green_battery{
+  width: 500px;
+  height: 20px;
+  background: #00ff00;
+  border-radius: 5px;
+}
+
+.red_battery{
+  width: 180px;
+  height: 20px;
+  background: #ff0000;
+  border-radius: 5px;
+}
